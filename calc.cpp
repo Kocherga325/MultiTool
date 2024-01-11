@@ -11,7 +11,7 @@ void calculator()
 {
 	system("chcp 1251 > nul");
 
-	cout << "введите 1 число" << endl;
+	cout << "введите 1-е число" << endl;
 	cin >> buff;
 	try
 	{
@@ -19,10 +19,10 @@ void calculator()
 	}
 	catch (invalid_argument)
 	{
-		cout << "SYNTAX ERROR" << endl; system("pause");
+		cout << "syntax error" << endl; system("pause");
 	}
 
-	cout << "введите оператор" << endl;
+	cout << "введите оператор(+,-,*,/)" << endl;
 	cin >> buff;
 	operat = buff.at(0);
 	cout << endl;
@@ -34,7 +34,7 @@ void calculator()
 	}
 	catch (invalid_argument)
 	{
-		cout << "SYNTAX ERROR" << endl; system("pause");
+		cout << "syntax error" << endl; system("pause");
 	}
 	cout << endl;
 
@@ -44,7 +44,7 @@ void calculator()
 	case '-': cout << "Ответ = " << (a_num - b_num) << endl; ; break;
 	case '/':if (b_num == 0)
 	{
-		cout << "MATH ERROR" << endl; ; break;
+		cout << "math error" << endl; ; break;
 	}
 			else {
 		cout << (a_num / b_num) << endl; ; break;
@@ -53,7 +53,7 @@ void calculator()
 	case '*': cout << "Ответ = " << (a_num * b_num) << endl; ; break;
 	case '%': cout << "Ответ = " << (a_num % b_num) << endl; ; break;
 	default:
-		cout << "SYNTAX ERROR" << endl; break;
+		cout << "syntax error" << endl; break;
 	}
 
 
