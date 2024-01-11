@@ -24,7 +24,7 @@ void stringcalc() {
 		<< "[-] ”даление подстроки из строки." << endl << endl;
 
 	char operation;
-	cout << "”кажите операцию: "; cin >> operation;
+	cout << "”казать операцию: "; cin >> operation;
 	cin.ignore();
 
 	switch (operation) {
