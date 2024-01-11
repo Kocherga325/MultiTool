@@ -1,0 +1,6 @@
+﻿  calc.cpp
+  exit.cpp
+D:\labi\project\project\exit.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  project.cpp
+  Создание кода...
+  project.vcxproj -> D:\labi\project\project\x64\Debug\project.exe
