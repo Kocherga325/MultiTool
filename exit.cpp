@@ -1,6 +1,6 @@
 #include <iostream>;
 using namespace std;
 
-void choose4() {
+void exitfromapp() {
     exit(0);
 }

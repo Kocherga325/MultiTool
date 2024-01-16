@@ -21,8 +21,8 @@ void timer()
 		auto end = std::chrono::steady_clock::now();
 		auto diff = end - start;
 		system("cls");
-		std::cout << "press space to stop: " << std::endl;
-		std::cout << "Time elapsed: "
+		std::cout << "нажмите пробел для остановки: " << std::endl;
+		std::cout << "Прошедшее время: "
 			<< ceil(std::chrono::duration <double, std::milli>(diff).count() / 1000) - 1
 			<< " s" << std::endl;
 

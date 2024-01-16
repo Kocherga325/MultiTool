@@ -10,6 +10,9 @@ using namespace std;
 
 void stringcalc();
 void calculator();
+void converter();
+void timer();
+void exitfromapp();
 
 int main()
 {
@@ -38,15 +41,15 @@ int main()
                 }
                 else
                     if (choose == 3) {
-                        //choose3();
+                        converter();
                     }
                     else
                         if (choose == 4) {
-                            //choose4();
+                            timer();
                         }
                         else
                             if (choose == 5) {
-                                //choose5();
+                                exitfromapp();
                             }
                             cout << "Введите вариант от 1 до 5." << endl;
         }

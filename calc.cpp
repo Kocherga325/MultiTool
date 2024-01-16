@@ -19,7 +19,7 @@ void calculator()
 	}
 	catch (invalid_argument)
 	{
-		cout << "syntax error" << endl; system("pause");
+		cout << "Ошибка" << endl; system("pause");
 	}
 
 	cout << "введите оператор(+,-,*,/)" << endl;
@@ -34,7 +34,7 @@ void calculator()
 	}
 	catch (invalid_argument)
 	{
-		cout << "syntax error" << endl; system("pause");
+		cout << "Ошибка" << endl; system("pause");
 	}
 	cout << endl;
 
@@ -53,7 +53,7 @@ void calculator()
 	case '*': cout << "Ответ = " << (a_num * b_num) << endl; ; break;
 	case '%': cout << "Ответ = " << (a_num % b_num) << endl; ; break;
 	default:
-		cout << "syntax error" << endl; break;
+		cout << "Ошибка" << endl; break;
 	}
 
 
