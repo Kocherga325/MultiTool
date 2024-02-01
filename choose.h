@@ -2,5 +2,5 @@
 void stringcalc();
 void calculator();
 void converter();
-void timer();
+void stopwatch();
 void exitfromapp();

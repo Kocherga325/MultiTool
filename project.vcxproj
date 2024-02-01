@@ -132,7 +132,7 @@
     <ClCompile Include="exit.cpp" />
     <ClCompile Include="project.cpp" />
     <ClCompile Include="stringcalc.cpp" />
-    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="stopwatch.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="choose.h" />

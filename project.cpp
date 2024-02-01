@@ -11,7 +11,7 @@ using namespace std;
 void stringcalc();
 void calculator();
 void converter();
-void timer();
+void stopwatch();
 void exitfromapp();
 
 int main()
@@ -45,7 +45,7 @@ int main()
                     }
                     else
                         if (choose == 4) {
-                            timer();
+                            stopwatch();
                         }
                         else
                             if (choose == 5) {
